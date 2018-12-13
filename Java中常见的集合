@@ -1,0 +1,11 @@
+Java常用的集合包括List,Set，以及Map，而List、Set、Map都是接口，其中List和Set接口都继承了Colletion接口，
+Java的集合持有的并不是对象本身，而是一个指向对象的引用，集合当中放的全部都是引用。
+继承List接口的有：ArrayList、LinkedList、Vector
+继承Set接口的有：HashSet、TreeSet
+继承Map接口的有：HashMap、TreeMap、HashTable
+1、List:有序可重复（ArrayList,LinkedList,Vector）
+（1）ArrayList 
+     底层：使用数组实现 
+     特点：查找效率高，随机访问效率高，增删效率低，非线程安全的
+
+
